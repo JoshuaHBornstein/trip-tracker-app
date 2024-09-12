@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979B4AE52C927690009966D6 /* driver_mile_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */; };
+		979B4AE72C927690009966D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AE62C927690009966D6 /* ContentView.swift */; };
+		979B4AE92C927695009966D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979B4AE82C927695009966D6 /* Assets.xcassets */; };
+		979B4AEC2C927695009966D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979B4AEB2C927695009966D6 /* Preview Assets.xcassets */; };
+		979B4AEE2C927695009966D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AED2C927695009966D6 /* Persistence.swift */; };
+		979B4AF12C927695009966D6 /* driver_mile_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AEF2C927695009966D6 /* driver_mile_tracker.xcdatamodeld */; };
+		979B4AFB2C927695009966D6 /* driver_mile_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AFA2C927695009966D6 /* driver_mile_trackerTests.swift */; };
+		979B4B052C927695009966D6 /* driver_mile_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B042C927695009966D6 /* driver_mile_trackerUITests.swift */; };
+		979B4B072C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B062C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979B4AF72C927695009966D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979B4AD92C92768F009966D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979B4AE02C927690009966D6;
+			remoteInfo = driver_mile_tracker;
+		};
+		979B4B012C927695009966D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979B4AD92C92768F009966D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979B4AE02C927690009966D6;
+			remoteInfo = driver_mile_tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979B4AE12C927690009966D6 /* driver_mile_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driver_mile_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerApp.swift; sourceTree = "<group>"; };
+		979B4AE62C927690009966D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		979B4AE82C927695009966D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979B4AEB2C927695009966D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		979B4AED2C927695009966D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		979B4AF02C927695009966D6 /* driver_mile_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = driver_mile_tracker.xcdatamodel; sourceTree = "<group>"; };
+		979B4AF62C927695009966D6 /* driver_mile_trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driver_mile_trackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979B4AFA2C927695009966D6 /* driver_mile_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerTests.swift; sourceTree = "<group>"; };
+		979B4B002C927695009966D6 /* driver_mile_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driver_mile_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979B4B042C927695009966D6 /* driver_mile_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerUITests.swift; sourceTree = "<group>"; };
+		979B4B062C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979B4ADE2C927690009966D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AF32C927695009966D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AFD2C927695009966D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979B4AD82C92768F009966D6 = {
+			isa = PBXGroup;
+			children = (
+				979B4AE32C927690009966D6 /* driver_mile_tracker */,
+				979B4AF92C927695009966D6 /* driver_mile_trackerTests */,
+				979B4B032C927695009966D6 /* driver_mile_trackerUITests */,
+				979B4AE22C927690009966D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979B4AE22C927690009966D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979B4AE12C927690009966D6 /* driver_mile_tracker.app */,
+				979B4AF62C927695009966D6 /* driver_mile_trackerTests.xctest */,
+				979B4B002C927695009966D6 /* driver_mile_trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979B4AE32C927690009966D6 /* driver_mile_tracker */ = {
+			isa = PBXGroup;
+			children = (
+				979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */,
+				979B4AE62C927690009966D6 /* ContentView.swift */,
+				979B4AE82C927695009966D6 /* Assets.xcassets */,
+				979B4AED2C927695009966D6 /* Persistence.swift */,
+				979B4AEF2C927695009966D6 /* driver_mile_tracker.xcdatamodeld */,
+				979B4AEA2C927695009966D6 /* Preview Content */,
+			);
+			path = driver_mile_tracker;
+			sourceTree = "<group>";
+		};
+		979B4AEA2C927695009966D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				979B4AEB2C927695009966D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		979B4AF92C927695009966D6 /* driver_mile_trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				979B4AFA2C927695009966D6 /* driver_mile_trackerTests.swift */,
+			);
+			path = driver_mile_trackerTests;
+			sourceTree = "<group>";
+		};
+		979B4B032C927695009966D6 /* driver_mile_trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979B4B042C927695009966D6 /* driver_mile_trackerUITests.swift */,
+				979B4B062C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift */,
+			);
+			path = driver_mile_trackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979B4AE02C927690009966D6 /* driver_mile_tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979B4B0A2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_tracker" */;
+			buildPhases = (
+				979B4ADD2C927690009966D6 /* Sources */,
+				979B4ADE2C927690009966D6 /* Frameworks */,
+				979B4ADF2C927690009966D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = driver_mile_tracker;
+			productName = driver_mile_tracker;
+			productReference = 979B4AE12C927690009966D6 /* driver_mile_tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979B4AF52C927695009966D6 /* driver_mile_trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979B4B0D2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerTests" */;
+			buildPhases = (
+				979B4AF22C927695009966D6 /* Sources */,
+				979B4AF32C927695009966D6 /* Frameworks */,
+				979B4AF42C927695009966D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979B4AF82C927695009966D6 /* PBXTargetDependency */,
+			);
+			name = driver_mile_trackerTests;
+			productName = driver_mile_trackerTests;
+			productReference = 979B4AF62C927695009966D6 /* driver_mile_trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979B4AFF2C927695009966D6 /* driver_mile_trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979B4B102C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerUITests" */;
+			buildPhases = (
+				979B4AFC2C927695009966D6 /* Sources */,
+				979B4AFD2C927695009966D6 /* Frameworks */,
+				979B4AFE2C927695009966D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979B4B022C927695009966D6 /* PBXTargetDependency */,
+			);
+			name = driver_mile_trackerUITests;
+			productName = driver_mile_trackerUITests;
+			productReference = 979B4B002C927695009966D6 /* driver_mile_trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979B4AD92C92768F009966D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					979B4AE02C927690009966D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					979B4AF52C927695009966D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 979B4AE02C927690009966D6;
+					};
+					979B4AFF2C927695009966D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 979B4AE02C927690009966D6;
+					};
+				};
+			};
+			buildConfigurationList = 979B4ADC2C927690009966D6 /* Build configuration list for PBXProject "driver_mile_tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979B4AD82C92768F009966D6;
+			productRefGroup = 979B4AE22C927690009966D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979B4AE02C927690009966D6 /* driver_mile_tracker */,
+				979B4AF52C927695009966D6 /* driver_mile_trackerTests */,
+				979B4AFF2C927695009966D6 /* driver_mile_trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979B4ADF2C927690009966D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4AEC2C927695009966D6 /* Preview Assets.xcassets in Resources */,
+				979B4AE92C927695009966D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AF42C927695009966D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AFE2C927695009966D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979B4ADD2C927690009966D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4AEE2C927695009966D6 /* Persistence.swift in Sources */,
+				979B4AE72C927690009966D6 /* ContentView.swift in Sources */,
+				979B4AF12C927695009966D6 /* driver_mile_tracker.xcdatamodeld in Sources */,
+				979B4AE52C927690009966D6 /* driver_mile_trackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AF22C927695009966D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4AFB2C927695009966D6 /* driver_mile_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B4AFC2C927695009966D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4B072C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift in Sources */,
+				979B4B052C927695009966D6 /* driver_mile_trackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979B4AF82C927695009966D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979B4AE02C927690009966D6 /* driver_mile_tracker */;
+			targetProxy = 979B4AF72C927695009966D6 /* PBXContainerItemProxy */;
+		};
+		979B4B022C927695009966D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979B4AE02C927690009966D6 /* driver_mile_tracker */;
+			targetProxy = 979B4B012C927695009966D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		979B4B082C927695009966D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979B4B092C927695009966D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979B4B0B2C927695009966D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"driver_mile_tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979B4B0C2C927695009966D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"driver_mile_tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979B4B0E2C927695009966D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driver_mile_tracker.app/driver_mile_tracker";
+			};
+			name = Debug;
+		};
+		979B4B0F2C927695009966D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driver_mile_tracker.app/driver_mile_tracker";
+			};
+			name = Release;
+		};
+		979B4B112C927695009966D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = driver_mile_tracker;
+			};
+			name = Debug;
+		};
+		979B4B122C927695009966D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jbornstein.driver-mile-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = driver_mile_tracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979B4ADC2C927690009966D6 /* Build configuration list for PBXProject "driver_mile_tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4B082C927695009966D6 /* Debug */,
+				979B4B092C927695009966D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979B4B0A2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4B0B2C927695009966D6 /* Debug */,
+				979B4B0C2C927695009966D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979B4B0D2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4B0E2C927695009966D6 /* Debug */,
+				979B4B0F2C927695009966D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979B4B102C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4B112C927695009966D6 /* Debug */,
+				979B4B122C927695009966D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		979B4AEF2C927695009966D6 /* driver_mile_tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				979B4AF02C927695009966D6 /* driver_mile_tracker.xcdatamodel */,
+			);
+			currentVersion = 979B4AF02C927695009966D6 /* driver_mile_tracker.xcdatamodel */;
+			path = driver_mile_tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 979B4AD92C92768F009966D6 /* Project object */;
+}
