@@ -62,7 +62,7 @@ extension Array where Element == Trip {
     }
 }
 
-struct TripHistoryView: View {
+struct TripHistoryView: View { //choose year
     @FetchRequest(
         entity: Trip.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Trip.startTime, ascending: true)]
@@ -90,7 +90,7 @@ struct TripHistoryView: View {
     }
 }
 
-struct MonthView: View {
+struct MonthView: View { //shows months with trips from a given year
     var year: Int
     var tripsByMonth: [Int: [Date: [Trip]]]
 
@@ -112,7 +112,7 @@ struct MonthView: View {
     }
 }
 
-struct DayView: View {
+struct DayView: View { //shows trips by day for the current month
     var year: Int
     var month: Int
     var tripsByDay: [Date: [Trip]]
@@ -138,6 +138,16 @@ struct DayView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .keyboardType(.decimalPad)
                         .frame(width: 50)
+                        .toolbar {
+                                                    // Add Done button above the decimal pad
+                                                    ToolbarItemGroup(placement: .keyboard) {
+                                                        Spacer()
+                                                        Button("Done") {
+                                                            storeCarMileage() // Save value
+                                                            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil) // Dismiss keyboard
+                                                        }
+                                                    }
+                                                }
                     } else {
                         Text("\(carMileage)")
                             .onTapGesture {
@@ -153,6 +163,16 @@ struct DayView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .keyboardType(.decimalPad)
                         .frame(width: 50)
+                        .toolbar {
+                                                    // Add Done button above the decimal pad
+                                                    ToolbarItemGroup(placement: .keyboard) {
+                                                        Spacer()
+                                                        Button("Done") {
+                                                            storeGasPrice() // Save value
+                                                            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil) // Dismiss keyboard
+                                                        }
+                                                    }
+                                                }
                     } else {
                         Text("\(gasPrice)")
                             .onTapGesture {
@@ -242,7 +262,7 @@ struct DayView: View {
     }
 }
 
-struct TripDetailView: View {
+struct TripDetailView: View { //shows trips for a given day
     //var trips: [Trip]
     //@State private var trips: FetchedResults<Trip>
     var carMileage: Double
