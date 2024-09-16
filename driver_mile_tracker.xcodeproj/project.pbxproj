@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A414F08F6CC94BF41DD1BD /* Pods_driver_mile_trackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5D69856CA637AC1032DC3B /* Pods_driver_mile_trackerTests.framework */; };
 		979B4AE52C927690009966D6 /* driver_mile_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */; };
 		979B4AE72C927690009966D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AE62C927690009966D6 /* ContentView.swift */; };
 		979B4AE92C927695009966D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979B4AE82C927695009966D6 /* Assets.xcassets */; };
@@ -16,6 +17,12 @@
 		979B4AFB2C927695009966D6 /* driver_mile_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4AFA2C927695009966D6 /* driver_mile_trackerTests.swift */; };
 		979B4B052C927695009966D6 /* driver_mile_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B042C927695009966D6 /* driver_mile_trackerUITests.swift */; };
 		979B4B072C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B062C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift */; };
+		979B4B162C927C78009966D6 /* TripHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B152C927C78009966D6 /* TripHistoryView.swift */; };
+		979B4B182C927FEF009966D6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B172C927FEF009966D6 /* LocationManager.swift */; };
+		979B4B282C92B433009966D6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4B272C92B433009966D6 /* DataManager.swift */; };
+		97B00C022C9652D300FDF968 /* MonthlyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B00C012C9652D300FDF968 /* MonthlyDataView.swift */; };
+		D0A6DA0B22965B1A82279CA1 /* Pods_driver_mile_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365B07680C7AEA5B86AF4F56 /* Pods_driver_mile_tracker.framework */; };
+		FBC0920D6D44EA2E07EBCE25 /* Pods_driver_mile_tracker_driver_mile_trackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D124878F0D19D9C4117055 /* Pods_driver_mile_tracker_driver_mile_trackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043369983829EE0D6EA4CF95 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_tracker-driver_mile_trackerUITests.release.xcconfig"; path = "Target Support Files/Pods-driver_mile_tracker-driver_mile_trackerUITests/Pods-driver_mile_tracker-driver_mile_trackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		365B07680C7AEA5B86AF4F56 /* Pods_driver_mile_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_driver_mile_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473E8B2A18E1BC178BA59B93 /* Pods-driver_mile_tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_tracker.debug.xcconfig"; path = "Target Support Files/Pods-driver_mile_tracker/Pods-driver_mile_tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		67168438CA0C5A83A8DA8C2C /* Pods-driver_mile_trackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_trackerTests.debug.xcconfig"; path = "Target Support Files/Pods-driver_mile_trackerTests/Pods-driver_mile_trackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92D124878F0D19D9C4117055 /* Pods_driver_mile_tracker_driver_mile_trackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_driver_mile_tracker_driver_mile_trackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979B4AE12C927690009966D6 /* driver_mile_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driver_mile_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerApp.swift; sourceTree = "<group>"; };
 		979B4AE62C927690009966D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +60,15 @@
 		979B4B002C927695009966D6 /* driver_mile_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driver_mile_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979B4B042C927695009966D6 /* driver_mile_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerUITests.swift; sourceTree = "<group>"; };
 		979B4B062C927695009966D6 /* driver_mile_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver_mile_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		979B4B152C927C78009966D6 /* TripHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryView.swift; sourceTree = "<group>"; };
+		979B4B172C927FEF009966D6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		979B4B1B2C928ACB009966D6 /* driver-mile-tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "driver-mile-tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		979B4B272C92B433009966D6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		97B00C012C9652D300FDF968 /* MonthlyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyDataView.swift; sourceTree = "<group>"; };
+		A5F2C0EC9B4B8C7AA58213D9 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_tracker-driver_mile_trackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-driver_mile_tracker-driver_mile_trackerUITests/Pods-driver_mile_tracker-driver_mile_trackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4DD5607E9CAAE7E3F5654DA /* Pods-driver_mile_trackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_trackerTests.release.xcconfig"; path = "Target Support Files/Pods-driver_mile_trackerTests/Pods-driver_mile_trackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB5D69856CA637AC1032DC3B /* Pods_driver_mile_trackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_driver_mile_trackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E9D13BCE3026506E4F063 /* Pods-driver_mile_tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-driver_mile_tracker.release.xcconfig"; path = "Target Support Files/Pods-driver_mile_tracker/Pods-driver_mile_tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A6DA0B22965B1A82279CA1 /* Pods_driver_mile_tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A414F08F6CC94BF41DD1BD /* Pods_driver_mile_trackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,19 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC0920D6D44EA2E07EBCE25 /* Pods_driver_mile_tracker_driver_mile_trackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958E7AB416A5C3DB649DF70A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473E8B2A18E1BC178BA59B93 /* Pods-driver_mile_tracker.debug.xcconfig */,
+				FA5E9D13BCE3026506E4F063 /* Pods-driver_mile_tracker.release.xcconfig */,
+				A5F2C0EC9B4B8C7AA58213D9 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.debug.xcconfig */,
+				043369983829EE0D6EA4CF95 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.release.xcconfig */,
+				67168438CA0C5A83A8DA8C2C /* Pods-driver_mile_trackerTests.debug.xcconfig */,
+				C4DD5607E9CAAE7E3F5654DA /* Pods-driver_mile_trackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		979B4AD82C92768F009966D6 = {
 			isa = PBXGroup;
 			children = (
+				97B00C012C9652D300FDF968 /* MonthlyDataView.swift */,
 				979B4AE32C927690009966D6 /* driver_mile_tracker */,
 				979B4AF92C927695009966D6 /* driver_mile_trackerTests */,
 				979B4B032C927695009966D6 /* driver_mile_trackerUITests */,
 				979B4AE22C927690009966D6 /* Products */,
+				958E7AB416A5C3DB649DF70A /* Pods */,
+				BE0ABC584D021FE0B78AE9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +138,16 @@
 		979B4AE32C927690009966D6 /* driver_mile_tracker */ = {
 			isa = PBXGroup;
 			children = (
+				979B4B1B2C928ACB009966D6 /* driver-mile-tracker-Info.plist */,
 				979B4AE42C927690009966D6 /* driver_mile_trackerApp.swift */,
 				979B4AE62C927690009966D6 /* ContentView.swift */,
 				979B4AE82C927695009966D6 /* Assets.xcassets */,
 				979B4AED2C927695009966D6 /* Persistence.swift */,
 				979B4AEF2C927695009966D6 /* driver_mile_tracker.xcdatamodeld */,
 				979B4AEA2C927695009966D6 /* Preview Content */,
+				979B4B152C927C78009966D6 /* TripHistoryView.swift */,
+				979B4B172C927FEF009966D6 /* LocationManager.swift */,
+				979B4B272C92B433009966D6 /* DataManager.swift */,
 			);
 			path = driver_mile_tracker;
 			sourceTree = "<group>";
@@ -133,6 +177,16 @@
 			path = driver_mile_trackerUITests;
 			sourceTree = "<group>";
 		};
+		BE0ABC584D021FE0B78AE9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				365B07680C7AEA5B86AF4F56 /* Pods_driver_mile_tracker.framework */,
+				92D124878F0D19D9C4117055 /* Pods_driver_mile_tracker_driver_mile_trackerUITests.framework */,
+				DB5D69856CA637AC1032DC3B /* Pods_driver_mile_trackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 979B4B0A2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_tracker" */;
 			buildPhases = (
+				601AC4F31C7FAF2116FF13E8 /* [CP] Check Pods Manifest.lock */,
 				979B4ADD2C927690009966D6 /* Sources */,
 				979B4ADE2C927690009966D6 /* Frameworks */,
 				979B4ADF2C927690009966D6 /* Resources */,
@@ -157,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 979B4B0D2C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerTests" */;
 			buildPhases = (
+				2A5DB2CF97FA8CD939EF2B39 /* [CP] Check Pods Manifest.lock */,
 				979B4AF22C927695009966D6 /* Sources */,
 				979B4AF32C927695009966D6 /* Frameworks */,
 				979B4AF42C927695009966D6 /* Resources */,
@@ -175,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 979B4B102C927695009966D6 /* Build configuration list for PBXNativeTarget "driver_mile_trackerUITests" */;
 			buildPhases = (
+				7D629C02C1C28D0DCB0A7EC1 /* [CP] Check Pods Manifest.lock */,
 				979B4AFC2C927695009966D6 /* Sources */,
 				979B4AFD2C927695009966D6 /* Frameworks */,
 				979B4AFE2C927695009966D6 /* Resources */,
@@ -197,7 +254,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					979B4AE02C927690009966D6 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -213,7 +270,7 @@
 				};
 			};
 			buildConfigurationList = 979B4ADC2C927690009966D6 /* Build configuration list for PBXProject "driver_mile_tracker" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,14 +315,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A5DB2CF97FA8CD939EF2B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-driver_mile_trackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601AC4F31C7FAF2116FF13E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-driver_mile_tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D629C02C1C28D0DCB0A7EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-driver_mile_tracker-driver_mile_trackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		979B4ADD2C927690009966D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B00C022C9652D300FDF968 /* MonthlyDataView.swift in Sources */,
 				979B4AEE2C927695009966D6 /* Persistence.swift in Sources */,
 				979B4AE72C927690009966D6 /* ContentView.swift in Sources */,
+				979B4B182C927FEF009966D6 /* LocationManager.swift in Sources */,
+				979B4B282C92B433009966D6 /* DataManager.swift in Sources */,
 				979B4AF12C927695009966D6 /* driver_mile_tracker.xcdatamodeld in Sources */,
+				979B4B162C927C78009966D6 /* TripHistoryView.swift in Sources */,
 				979B4AE52C927690009966D6 /* driver_mile_trackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +469,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -399,6 +530,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -419,14 +551,19 @@
 		};
 		979B4B0B2C927695009966D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473E8B2A18E1BC178BA59B93 /* Pods-driver_mile_tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"driver_mile_tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2Y2ZVL9MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "driver-mile-tracker-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needs to track location while in background to accurately track driving distance";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location to track miles driven";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,14 +584,19 @@
 		};
 		979B4B0C2C927695009966D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5E9D13BCE3026506E4F063 /* Pods-driver_mile_tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"driver_mile_tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2Y2ZVL9MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "driver-mile-tracker-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needs to track location while in background to accurately track driving distance";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location to track miles driven";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +617,7 @@
 		};
 		979B4B0E2C927695009966D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67168438CA0C5A83A8DA8C2C /* Pods-driver_mile_trackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +637,7 @@
 		};
 		979B4B0F2C927695009966D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DD5607E9CAAE7E3F5654DA /* Pods-driver_mile_trackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +657,7 @@
 		};
 		979B4B112C927695009966D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F2C0EC9B4B8C7AA58213D9 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +675,7 @@
 		};
 		979B4B122C927695009966D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043369983829EE0D6EA4CF95 /* Pods-driver_mile_tracker-driver_mile_trackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

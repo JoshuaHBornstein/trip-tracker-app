@@ -1,0 +1,6 @@
+framework module Pods_driver_mile_tracker_driver_mile_trackerUITests {
+  umbrella header "Pods-driver_mile_tracker-driver_mile_trackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_driver_mile_tracker_driver_mile_trackerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_driver_mile_tracker_driver_mile_trackerUITests
+@end

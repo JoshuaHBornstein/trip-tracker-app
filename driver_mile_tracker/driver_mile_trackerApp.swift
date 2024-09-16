@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
-struct driver_mile_trackerApp: App {
+struct MyApp: App {
     let persistenceController = PersistenceController.shared
-
     var body: some Scene {
+
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, persistenceController.container.viewContext) // Pass Core Data context to the views
         }
     }
+
 }
+
