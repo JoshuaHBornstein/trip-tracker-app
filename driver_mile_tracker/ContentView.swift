@@ -128,6 +128,7 @@ struct ContentView: View {
         }
     }
     func startTracking() {
+        currentDistance = 0.0
         locationManager.startTracking()
         tracking = true
         currentStartTime = Date() // Set the current start time
